@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import './styles.css';
+import FeaturedProject from './components/FeaturedProject.js'
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
         <h1 className="awe-some">
           Hello world!
         </h1>
+
+        <FeaturedProject/>
 
       </header>
     </div>
