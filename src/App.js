@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import './styles.css';
 
 function App() {
   return (
@@ -15,8 +16,13 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          This is where I start cheesing this.
         </a>
+
+        <h1 className="awe-some">
+          Hello world!
+        </h1>
+
       </header>
     </div>
   );
